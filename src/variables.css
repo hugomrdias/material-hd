@@ -1,0 +1,40 @@
+:root {
+    --mhd-primary-color: #3f51b5;
+    --mhd-primary-color-darker: #303f9f;
+    --mhd-primary-color-lighter: #c5cae9;
+    --mhd-secondary-color: #3f51b5;
+    --mhd-secondary-color-darker: #303f9f;
+    --mhd-secondary-color-lighter: #c5cae9;
+
+    /* background colors */
+    --mhd-bg-1: #e0e0e0;
+    --mhd-bg-2: #f5f5f5;
+    --mhd-bg-3: #fafafa;
+    --mhd-bg-4: #fff;
+
+    /* text-color on light background */
+    --mhd-text-color-base: #000;
+    --mhd-text-color: rgba(0, 0, 0, 0.87);
+    --mhd-text-color-secondary: rgba(0, 0, 0, 0.54);
+    --mhd-text-color-hint: rgba(0, 0, 0, 0.38);
+    --mhd-text-color-accent: #fff;
+
+    /* divider-color on light background */
+    --mhd-divider-color: rgba(0, 0, 0, 0.12);
+
+    /* fonts */
+    --mhd-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
+        Roboto, 'Noto Sans', Oxygen, Ubuntu, Cantarell, 'Fira Sans',
+        'Droid Sans', 'Helvetica Neue', sans-serif;
+    --mhd-font-family-mono: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono',
+        'Ubuntu Mono', Menlo, Courier, monospace;
+    --mhd-font-size: 14px;
+    --mhd-font-size-caption: 12px;
+    --mhd-font-size-subheading: 16px;
+    --mhd-font-size-title: 20px;
+    --mhd-font-size-headline: 24px;
+    --mhd-font-size-display1: 34px;
+    --mhd-font-size-display2: 45px;
+    --mhd-font-size-display3: 56px;
+    --mhd-font-size-display4: 112px;
+}

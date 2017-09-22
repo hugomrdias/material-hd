@@ -1,0 +1,66 @@
+*,
+*::before,
+*::after {
+    box-sizing: inherit;
+}
+
+html {
+    box-sizing: border-box;
+    font-size: 20px;
+    line-height: 1.428571429;
+    -webkit-tap-highlight-color: transparent;
+}
+
+body {
+    background-color: var(--mhd-bg-3);
+    color: var(--mhd-text-color);
+    font-family: var(--mhd-font-family);
+    font-size: 0.7rem;
+    overflow-x: hidden;
+    text-rendering: optimizeLegibility;
+}
+
+code,
+kbd,
+pre,
+samp {
+    font-family: var(--mhd-font-family-mono);
+}
+
+.mhd-Base small {
+    font-size: var(--mhd-font-size-caption);
+    font-weight: 400;
+}
+
+.mhd-Base h6,
+.mhd-Base h5,
+.mhd-Base h4,
+.mhd-Base h3,
+.mhd-Base h2,
+.mhd-Base h1 {
+    font-weight: 400;
+}
+
+.mhd-Base h6 {
+    font-size: var(--mhd-font-size-subheading);
+}
+
+.mhd-Base h5 {
+    font-size: var(--mhd-font-size-title);
+}
+
+.mhd-Base h4 {
+    font-size: var(--mhd-font-size-headline);
+}
+
+.mhd-Base h3 {
+    font-size: var(--mhd-font-size-display1);
+}
+
+.mhd-Base h2 {
+    font-size: var(--mhd-font-size-display2);
+}
+
+.mhd-Base h1 {
+    font-size: var(--mhd-font-size-display3);
+}

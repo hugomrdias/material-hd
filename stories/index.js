@@ -201,7 +201,7 @@ storiesOf('Base', module)
     ));
 storiesOf('Material HD', module)
     .add('base class', () => (
-        <div className="mhd-Base">
+        <div style={{ padding: '10px' }} className="mhd-Base">
             <h1>
                 H1 Heading <small>56px</small>
             </h1>
@@ -228,6 +228,133 @@ storiesOf('Material HD', module)
                 </a>, feugiat tempus tellus. Duis quis sodales risus. Etiam
                 euismod ornare consequat.
             </p>
+            <p>
+                Climb leg rub face on everything give attitude nap all day for
+                under the bed. Chase mice attack feet but rub face on everything
+                hopped up on goofballs.
+            </p>
+            <h4>Semantic text elements</h4>
+            <div>
+                <abbr title="Internationalization">I18N</abbr>
+                <code>&lt;abbr&gt;</code>
+            </div>
+            <div>
+                <strong>Bold</strong>
+                <code>&lt;strong&gt;</code> <code>&lt;b&gt;</code>
+            </div>
+            <div>
+                <cite>Citation</cite>
+                <code>&lt;cite&gt;</code>
+            </div>
+            <div>
+                <code>Hello World!</code>
+                <code>&lt;code&gt;</code>
+            </div>
+            <div>
+                <del>Deleted</del>
+                <code>&lt;del&gt;</code>
+            </div>
+            <div>
+                <em>Emphasis</em>
+                <code>&lt;em&gt;</code>
+            </div>
+            <div>
+                <i>Italic</i>
+                <code>&lt;i&gt;</code>
+            </div>
+            <div>
+                <ins>Inserted</ins>
+                <code>&lt;ins&gt;</code>
+            </div>
+            <div>
+                <kbd>Ctrl + S</kbd>
+                <code>&lt;kbd&gt;</code>
+            </div>
+            <div>
+                <mark>Highlighted</mark>
+                <code>&lt;mark&gt;</code>
+            </div>
+            <div>
+                <ruby>
+                    漢 <rt>kan</rt>
+                    字 <rt>ji</rt>
+                </ruby>
+                <code>&lt;ruby&gt;</code>
+            </div>
+            <div>
+                <s>Strikethrough</s>
+                <code>&lt;s&gt;</code>
+            </div>
+            <div>
+                <samp>Sample</samp>
+                <code>&lt;samp&gt;</code>
+            </div>
+            <div>
+                Text <sub>Subscripted</sub>
+                <code>&lt;sub&gt;</code>
+            </div>
+            <div>
+                Text <sup>Superscripted</sup>
+                <code>&lt;sup&gt;</code>
+            </div>
+            <div>
+                <time>20:00</time>
+                <code>&lt;time&gt;</code>
+            </div>
+            <div>
+                <u>Underline</u>
+                <code>&lt;u&gt;</code>
+            </div>
+            <div>
+                <var>x</var> = <var>y</var> + 2
+                <code>&lt;var&gt;</code>
+            </div>
+            <p>
+                Climb leg rub <kbd>Ctrl + S</kbd> face on everything give
+                attitude nap all day for under the bed. Chase mice attack feet
+                but rub face on everything <mark>Highlighted</mark> hopped up on
+                goofballs.
+            </p>
+            <blockquote>
+                <p>
+                    The advance of technology is based on making it fit in so
+                    that you don't really even notice it, so it's part of
+                    everyday life.{' '}
+                </p>
+                <cite>- Bill Gates</cite>
+            </blockquote>
+            <ul>
+                <li>list item 1</li>
+                <li>
+                    list item 2
+                    <ul>
+                        <li>list item 2.1</li>
+                        <li>list item 2.2</li>
+                        <li>list item 2.3</li>
+                    </ul>
+                </li>
+                <li>list item 3</li>
+            </ul>
+            <ol>
+                <li>list item 1</li>
+                <li>
+                    list item 2
+                    <ol>
+                        <li>list item 2.1</li>
+                        <li>list item 2.2</li>
+                        <li>list item 2.3</li>
+                    </ol>
+                </li>
+                <li>list item 3</li>
+            </ol>
+            <dl>
+                <dt>description list term 1</dt>
+                <dd>description list description 1</dd>
+                <dt>description list term 2</dt>
+                <dd>description list description 2</dd>
+                <dt>description list term 3</dt>
+                <dd>description list description 3</dd>
+            </dl>
         </div>
     ))
     .add('with some emoji', () => (

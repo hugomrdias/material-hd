@@ -27,6 +27,38 @@ samp {
     font-family: var(--mhd-font-family-mono);
 }
 
+::selection {
+    background: var(--mhd-primary-color-lighter);
+}
+
+.mhd-Base a {
+    color: var(--mhd-primary-color);
+    outline: none;
+    text-decoration: none;
+}
+
+.mhd-Base a:focus {
+    box-shadow: 0 0 0 0.1rem rgba(63, 83, 181, 0.2);
+}
+
+.mhd-Base a:focus,
+.mhd-Base a:hover,
+.mhd-Base a:active {
+    color: var(--mhd-primary-color-darker);
+    text-decoration: underline;
+}
+
+.mhd-Base p {
+    margin: 0 0 0.8rem;
+    line-height: 1.2rem;
+}
+
+.mhd-Base a,
+.mhd-Base ins,
+.mhd-Base u {
+    text-decoration-skip: ink edges;
+}
+
 .mhd-Base small {
     font-size: var(--mhd-font-size-caption);
     font-weight: 400;
@@ -38,7 +70,11 @@ samp {
 .mhd-Base h3,
 .mhd-Base h2,
 .mhd-Base h1 {
-    font-weight: 400;
+    margin-top: 0;
+    margin-bottom: 0.25em;
+    color: inherit;
+    font-weight: 500;
+    line-height: 1.2;
 }
 
 .mhd-Base h6 {
@@ -63,4 +99,87 @@ samp {
 
 .mhd-Base h1 {
     font-size: var(--mhd-font-size-display3);
+}
+
+.mhd-Base abbr[title] {
+    border-bottom: 0.05rem dotted;
+    cursor: help;
+    text-decoration: none;
+}
+
+.mhd-Base kbd {
+    padding: 0.15rem;
+    background-color: var(--mhd-text-color);
+    border-radius: 0.1rem;
+    color: var(--mhd-text-color-accent);
+    font-size: 0.65rem;
+    line-height: 1;
+}
+
+.mhd-Base mark {
+    padding: 0.05rem;
+    background: var(--mhd-primary-color-lighter);
+    border-radius: 0.1rem;
+    color: var(--mhd-text-color-secondary);
+}
+
+.mhd-Base blockquote {
+    padding: 0.4rem 0.8rem;
+    border-left: 0.1rem solid var(--mhd-primary-color-lighter);
+    margin-left: 0;
+}
+
+.mhd-Base blockquote p:last-child {
+    margin-bottom: 0;
+}
+
+.mhd-Base code {
+    padding: 0.15rem;
+    background: #fdf4f4;
+    border-radius: 0.1rem;
+    color: #e06870;
+    font-size: 0.65rem;
+    line-height: 1;
+}
+
+.mhd-Base ul,
+.mhd-Base ol {
+    padding: 0;
+    margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+.mhd-Base ul ul,
+.mhd-Base ul ol,
+.mhd-Base ol ul,
+.mhd-Base ol ol {
+    margin: 0.8rem 0 0.8rem 0.8rem;
+}
+
+.mhd-Base ul li,
+.mhd-Base ol li {
+    margin-top: 0.4rem;
+}
+
+.mhd-Base ul {
+    list-style: disc inside;
+}
+
+.mhd-Base ul ul {
+    list-style-type: circle;
+}
+
+.mhd-Base ol {
+    list-style: decimal inside;
+}
+
+.mhd-Base ol ol {
+    list-style-type: lower-alpha;
+}
+
+.mhd-Base dl dt {
+    font-weight: bold;
+}
+
+.mhd-Base dl dd {
+    margin: 0.4rem 0 0.8rem;
 }

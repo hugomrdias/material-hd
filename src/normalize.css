@@ -448,3 +448,46 @@ template {
 [hidden] {
     display: none;
 }
+
+/* more stuff from bootstrap and suitcss  */
+
+/**
+ * Work around a Firefox/IE bug where the transparent `button` background
+ * results in a loss of the default `button` focus styles.
+ */
+
+button:focus {
+    outline: 1px dotted;
+    outline: 5px auto -webkit-focus-ring-color;
+}
+
+fieldset {
+    min-width: 0;
+    padding: 0;
+    border: 0;
+    margin: 0;
+}
+
+/**
+ * Suppress the focus outline on elements that cannot be accessed via keyboard.
+ * This prevents an unwanted focus outline from appearing around elements that
+ * might still respond to pointer events.
+ */
+
+[tabindex='-1']:focus {
+    outline: none !important;
+}
+
+/* Avoid 300ms click delay on touch devices that support the `touch-action` CSS property. */
+
+a,
+area,
+button,
+[role='button'],
+input:not([type='range']),
+label,
+select,
+summary,
+textarea {
+    touch-action: manipulation;
+}

@@ -6,8 +6,6 @@
 
 html {
     box-sizing: border-box;
-    font-size: 20px;
-    line-height: 1.428571429;
     -webkit-tap-highlight-color: transparent;
 }
 
@@ -15,7 +13,8 @@ body {
     background-color: var(--mhd-bg-3);
     color: var(--mhd-text-color);
     font-family: var(--mhd-font-family);
-    font-size: 0.7rem;
+    -moz-osx-font-smoothing: grayscale;
+    -webkit-font-smoothing: antialiased;
     overflow-x: hidden;
     text-rendering: optimizeLegibility;
 }
@@ -29,6 +28,12 @@ samp {
 
 ::selection {
     background: var(--mhd-primary-color-lighter);
+}
+
+a {
+    color: var(--mhd-primary-color);
+    outline: none;
+    text-decoration: none;
 }
 
 .mhd-Base a {

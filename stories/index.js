@@ -1,9 +1,13 @@
 import React from 'react';
 import { storiesOf } from '@storybook/react';
 import { action } from '@storybook/addon-actions';
+import Grid from './grid';
 import './../src/normalize.css';
 import './../src/variables.css';
 import './../src/base.css';
+import './../src/typography.css';
+import './../src/utils.css';
+import './../src/divider/divider.css';
 
 storiesOf('Base', module)
     .add('Heading and Paragraph', () => (
@@ -357,6 +361,161 @@ storiesOf('Material HD', module)
             </dl>
         </div>
     ))
-    .add('with some emoji', () => (
-        <button onClick={action('clicked')}>😀 😎 👍 💯</button>
-    ));
+    .add('Typography', () => (
+        <section
+            style={{
+                margin: '10px',
+                border: '1px solid red'
+            }}
+        >
+            <h1 className="mhd-Typo-display4">Display 4</h1>
+            <h1 className="mhd-Typo-display3">Display 3</h1>
+            <h1 className="mhd-Typo-display2">Display 2</h1>
+            <h1 className="mhd-Typo-display1">Display 1</h1>
+            <h1 className="mhd-Typo-headline">Headline</h1>
+            <h2 className="mhd-Typo-title">
+                Title <span className="mhd-Typo-caption">Caption.</span>
+            </h2>
+            <h3 className="mhd-Typo-subheading2">Subheading 2</h3>
+            <h4 className="mhd-Typo-subheading1">Subheading 1</h4>
+            <p className="mhd-Typo-body1">
+                Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <aside className="mhd-Typo-body2">
+                Body 2 text, calling something out.
+            </aside>
+            <p>
+                Lorem ipsum dolor sit amet, consectetur{' '}
+                <a href="#typography">
+                    adipiscing elit. Praesent risus leo, dictum in vehicula sit
+                    amet
+                </a>, feugiat tempus tellus. Duis quis sodales risus. Etiam
+                euismod ornare consequat.
+            </p>
+            <hr />
+            <h3>Adjusted</h3>
+            <h1 className="mhd-Typo-display4 mhd-Typo--adjust">Display 4</h1>
+            <h1 className="mhd-Typo-display3 mhd-Typo--adjust">Display 3</h1>
+            <h1 className="mhd-Typo-display2 mhd-Typo--adjust">Display 2</h1>
+            <h1 className="mhd-Typo-display1 mhd-Typo--adjust">Display 1</h1>
+            <h1 className="mhd-Typo-headline mhd-Typo--adjust">Headline</h1>
+            <h2 className="mhd-Typo-title mhd-Typo--adjust">
+                Title{' '}
+                <span className="mhd-Typo-caption mhd-Typo--adjust">
+                    Caption.
+                </span>
+            </h2>
+            <h3 className="mhd-Typo-subheading2 mhd-Typo--adjust">
+                Subheading 2
+            </h3>
+            <h4 className="mhd-Typo-subheading1 mhd-Typo--adjust">
+                Subheading 1
+            </h4>
+            <p className="mhd-Typo-body1 mhd-Typo--adjust">
+                Body 1 paragraph. Lorem ipsum dolor sit amet, consectetur
+                adipiscing elit, sed do eiusmod tempor incididunt ut labore et
+                dolore magna aliqua. Ut enim ad minim veniam, quis nostrud
+                exercitation ullamco laboris nisi ut aliquip ex ea commodo
+                consequat. Duis aute irure dolor in reprehenderit in voluptate
+                velit esse cillum dolore eu fugiat nulla pariatur.
+            </p>
+            <aside className="mhd-Typo-body2 mhd-Typo--adjust">
+                Body 2 text, calling something out.
+            </aside>
+        </section>
+    ))
+    .add('Divider', () => (
+        <section
+            style={{
+                margin: '10px',
+                border: '1px solid red',
+                backgroundColor: 'white'
+            }}
+        >
+            <span className="mhd-Divider" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
+            <span className="mhd-Divider" data-content="OR" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
+            <span className="mhd-Divider" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
+            <span className="mhd-Divider u-textCenter" data-content="OR" />
+            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Praesent
+            risus leo, dictum in vehicula sit amet, feugiat tempus tellus.
+            <form>
+                <div className="form-group">
+                    <label className="form-label" htmlFor="input-example-1">
+                        Email
+                    </label>
+                    <input
+                        className="form-input"
+                        type="text"
+                        id="input-example-1"
+                        placeholder="Email"
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="form-label" htmlFor="input-example-2">
+                        Password
+                    </label>
+                    <input
+                        className="form-input"
+                        type="password"
+                        id="input-example-2"
+                        placeholder="Password"
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="form-checkbox">
+                        <input type="checkbox" />
+                        <i className="form-icon" /> Remember me
+                    </label>
+                </div>
+                <div className="form-group">
+                    <button className="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+            <div className="mhd-DividerVert" data-content="OR" />
+            <form>
+                <div className="form-group">
+                    <label className="form-label" htmlFor="input-example-1">
+                        Email
+                    </label>
+                    <input
+                        className="form-input"
+                        type="text"
+                        id="input-example-1"
+                        placeholder="Email"
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="form-label" htmlFor="input-example-2">
+                        Password
+                    </label>
+                    <input
+                        className="form-input"
+                        type="password"
+                        id="input-example-2"
+                        placeholder="Password"
+                    />
+                </div>
+                <div className="form-group">
+                    <label className="form-checkbox">
+                        <input type="checkbox" />
+                        <i className="form-icon" /> Remember me
+                    </label>
+                </div>
+                <div className="form-group">
+                    <button className="btn btn-primary">Sign in</button>
+                </div>
+            </form>
+        </section>
+    ))
+    .add('Grid', () => <Grid />);

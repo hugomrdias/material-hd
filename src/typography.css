@@ -1,0 +1,155 @@
+.mhd-Typo-display4 {
+    font-size: 7rem;
+    font-weight: 300;
+    letter-spacing: -0.04em;
+    line-height: 7rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-display4.mhd-Typo--adjust {
+    margin: -1rem 0 3.5rem -0.085em;
+}
+
+.mhd-Typo-display3 {
+    font-size: 3.5rem;
+    font-weight: 400;
+    letter-spacing: -0.02em;
+    line-height: 3.5rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-display3.mhd-Typo--adjust {
+    margin: -8px 0 64px -0.07em;
+}
+
+.mhd-Typo-display2 {
+    font-size: 2.813rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 3rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-display2.mhd-Typo--adjust {
+    margin: -0.5rem 0 4rem -0.07em;
+}
+
+.mhd-Typo-display1 {
+    font-size: 2.125rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 2.5rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-display1.mhd-Typo--adjust {
+    margin: -0.5rem 0 4rem -0.07em;
+}
+
+.mhd-Typo-headline {
+    font-size: 1.5rem;
+    font-weight: 400;
+    letter-spacing: normal;
+    line-height: 2rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-headline.mhd-Typo--adjust {
+    margin: -0.5rem 0 1rem -0.05em;
+}
+
+.mhd-Typo-title {
+    font-size: 1.25rem;
+    font-weight: 500;
+    letter-spacing: 0.02em;
+    line-height: 2rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-title.mhd-Typo--adjust {
+    margin: -0.5rem 0 1rem -0.04em;
+}
+
+.mhd-Typo-subheading2 {
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.75rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-subheading2.mhd-Typo--adjust {
+    margin: -0.5rem 0 1rem 0;
+}
+
+.mhd-Typo-subheading1 {
+    font-size: 0.938rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.5rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-subheading1.mhd-Typo--adjust {
+    margin: -0.313rem 0 0.813rem 0;
+}
+
+.mhd-Typo-body2 {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 1.5rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-body2.mhd-Typo--adjust {
+    margin: -0.25rem 0 0.75rem 0;
+}
+
+.mhd-Typo-body1 {
+    font-size: 0.875rem;
+    font-weight: 400;
+    letter-spacing: 0.04em;
+    line-height: 1.25rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-body1.mhd-Typo--adjust {
+    margin: -0.25rem 0 0.75rem 0;
+}
+
+.mhd-Typo-caption {
+    font-size: 0.75rem;
+    font-weight: 400;
+    letter-spacing: 0.08em;
+    line-height: 1.25rem;
+    text-decoration: inherit;
+    text-transform: inherit;
+}
+
+.mhd-Typo-caption.mhd-Typo--adjust {
+    margin: -0.5rem 0 1rem -0.04em;
+}
+
+.mhd-Typo-button {
+    font-size: 0.875rem;
+    font-weight: 500;
+    letter-spacing: 0.04em;
+    line-height: 2.25rem;
+    text-decoration: none;
+    text-transform: uppercase;
+}
+
+.mhd-Typo-button.mhd-Typo--adjust {
+    margin: inherit;
+}

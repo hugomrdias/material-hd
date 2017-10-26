@@ -24,17 +24,8 @@
 
     /* fonts */
     --mhd-font-family: -apple-system, system-ui, BlinkMacSystemFont, 'Segoe UI',
-        Roboto, 'Noto Sans', Oxygen, Ubuntu, Cantarell, 'Fira Sans',
-        'Droid Sans', 'Helvetica Neue', sans-serif;
+        Roboto, Oxygen, Ubuntu, Cantarell, 'Fira Sans', 'Droid Sans',
+        'Helvetica Neue', sans-serif;
     --mhd-font-family-mono: 'SF Mono', 'Segoe UI Mono', 'Roboto Mono',
         'Ubuntu Mono', Menlo, Courier, monospace;
-    --mhd-font-size: 14px;
-    --mhd-font-size-caption: 12px;
-    --mhd-font-size-subheading: 16px;
-    --mhd-font-size-title: 20px;
-    --mhd-font-size-headline: 24px;
-    --mhd-font-size-display1: 34px;
-    --mhd-font-size-display2: 45px;
-    --mhd-font-size-display3: 56px;
-    --mhd-font-size-display4: 112px;
 }

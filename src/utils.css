@@ -1,0 +1,75 @@
+.u-rounded {
+    border-radius: 2px;
+}
+
+.u-circle {
+    border-radius: 50%;
+}
+
+.u-textLeft {
+    text-align: left;
+}
+
+.u-textRight {
+    text-align: right;
+}
+
+.u-textCenter {
+    text-align: center;
+}
+
+.u-textJustify {
+    text-align: justify;
+}
+
+.u-textLowercase {
+    text-transform: lowercase;
+}
+
+.u-textUppercase {
+    text-transform: uppercase;
+}
+
+.u-textCapitalize {
+    text-transform: capitalize;
+}
+
+.u-textNormal {
+    font-weight: normal;
+}
+
+.u-textBold {
+    font-weight: bold;
+}
+
+.u-textItalic {
+    font-style: italic;
+}
+
+.u-textLarge {
+    font-size: 1.2em;
+}
+
+.u-textEllipsis {
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.u-textClip {
+    overflow: hidden;
+    text-overflow: clip;
+    white-space: nowrap;
+}
+
+.u-textBreak {
+    hyphens: auto;
+    word-break: break-word;
+    word-wrap: break-word;
+}
+
+.u-debug {
+    border: 1px dotted red;
+    margin-bottom: 20px;
+    background-color: rgba(0, 0, 0, 0.2);
+}
